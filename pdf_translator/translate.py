@@ -8,7 +8,7 @@ import re
 import os
 from googletrans import Translator
 import glob
-a
+
 def is_float(n):
     try:
         float(n)
@@ -171,6 +171,8 @@ def main():
         
         print("proccessing file:{}".format(file_pdf[len(dir_pdf):]))
         make_files(file_pdf, file_en, file_ja)
+
+    print("finished!")
 
 if __name__ == "__main__":
     main()
