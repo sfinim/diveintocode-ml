@@ -42,3 +42,6 @@ https://nikukyulog.com/programming/python/install-stash-on-pythonista3/
 - pip install googletrans
 
 ディレクトリ構成を整理してtranslate.pyを実行すれば動きます。
+
+### 課題
+pdf、変換前、変換後のファイルをOneDriveのフォルダに保存できるようにしたい。
