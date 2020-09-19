@@ -2,6 +2,7 @@
 
 ### 概要
 論文とか、英語で書かれたpdfファイルをgoogle翻訳で日本語に翻訳するツール。
+元ネタ→https://github.com/adachione/diveintocode-ml/blob/master/Sprint/auto_translate.ipynb
 
 ### ディレクトリ構成
 以下のディレクトリ構成で使用すること
