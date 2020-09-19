@@ -6,10 +6,10 @@
 ### ディレクトリ構成
 以下のディレクトリ構成で使用すること
 
-pdf_translator
-　├ pdf/
-　├ en/
-　├ ja/
+pdf_translator \\
+　├ pdf/ \\
+　├ en/ \\
+　├ ja/ \\
 　└ translate.py
 
 各ディレクトリに格納されるファイルは以下の通り。
@@ -18,7 +18,7 @@ pdf_translator
 - ja :翻訳後(日本語)のテキストファイル
 
 ### 使い方
-翻訳したいpdfファイルを"pdf"ディレクトリに格納して以下を実行。
+翻訳したいpdfファイルを"pdf"ディレクトリに格納して以下を実行。\\
 `> python translate.py`
 
 - "en","ja"ディレクトリにpdfに対応したファイルが生成される。
