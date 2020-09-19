@@ -20,6 +20,7 @@ pdf_translator
 
 ### 使い方
 翻訳したいpdfファイルを"pdf"ディレクトリに格納して以下を実行。  
+translate.pyが格納されているディレクトリで実行すること。  
 `python translate.py`
 
 - "en","ja"ディレクトリにpdfに対応したファイルが生成される。
@@ -40,4 +41,4 @@ https://nikukyulog.com/programming/python/install-stash-on-pythonista3/
 - pip install pdfminer.six
 - pip install googletrans
 
-論文などのpdfをダウンロードしてtranslate.pyを実行すれば動きます。
+ディレクトリ構成を整理してtranslate.pyを実行すれば動きます。
