@@ -8,7 +8,7 @@ import re
 import os
 from googletrans import Translator
 import glob
-
+a
 def is_float(n):
     try:
         float(n)
