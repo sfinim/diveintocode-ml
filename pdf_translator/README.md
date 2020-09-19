@@ -19,7 +19,7 @@ pdf_translator
 
 ### 使い方
 翻訳したいpdfファイルを"pdf"ディレクトリに格納して以下を実行。  
-`> python translate.py`
+`python translate.py`
 
 - "en","ja"ディレクトリにpdfに対応したファイルが生成される。
 - 複数pdfファイルがある場合はまとめて処理される。
