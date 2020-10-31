@@ -18,7 +18,7 @@ model.load_weights("models/model_final.h5")
 while True:
 
     # 入力
-    sequence = input("テスト：")
+    sequence = input("希望する旅行は？：")
 
     ## Q&A形式用処理
     # 形態素解析
@@ -47,11 +47,12 @@ while True:
 
     # 推定
     pred = model.predict(inputs).reshape(len(dict_word2id)+1)
-    print(np.sort(pred)[::-1][:10])
+#    print(np.sort(pred)[::-1][:10])
     pred = np.argsort(-pred)[:10]
-    print(pred)
+#    print(pred)
 
-    # テスト表示用
+    # 表示
+    print("以下がおすすめです。")
     for index in pred:
         spot = dict_id2word[index]
         print(spot, dict_spot2url[spot])
